@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+
+</head>
+<body>
+    <!-- ini header-->
+    <header class="header">
+        <nav class="Navbar">
+            <img src="https://images.glints.com/unsafe/glints-dashboard.s3.amazonaws.com/company-logo/a32f81155cd0d4f16d36aef74f7d2644.png" alt="logo" class="logo">
+            <div class="nav-item">
+                <a href="" class="menu"> HOME </a>
+                <a href="/our/form.html" class="menu"> OUR PROFILE</a>
+                <a href="" class="menu"> MESSAGE US</a>
+            </div>
+        </nav>
+    </header>
+
+    <!--main content-->
+    <main>
+        <div class="container">
+            <section id="hero">
+                <div id="hero-word">
+                <h1>Hai <span id="Kata">Maulana</span>, Welcome to website</h1>
+                <p>ini adalah latihan pertama website RevoU</p>
+                </div>
+                <img src="https://storage.googleapis.com/danacita-website-v3-prd/website_v3/images/Biaya_bootcamp_RevoU_6.original.png" alt="hero">
+            </section> <hr>
+            <section id="our">
+                <h1>Our Fasilitation</h1>
+                <div class="fasilitation">
+                    <div>
+                        <img src="https://www.hkubs.hku.hk/wp-content/uploads/fly-images/184541/BS106628-scaled-800x800-ct.jpg" alt="img1" class="fasil-image">
+                        <p class="fasil-p">Professional Lecture</p>
+                    </div>
+                    <div>
+                        <img src="https://leapsurabaya.sch.id/wp-content/uploads/2021/08/laptop-untuk-bisnis-online.jpg" alt="img3"  class="fasil-image">
+                        <p class="fasil-p">laptop</p>
+                    </div>
+                    <div>
+                        <img src="https://wsbt.com/resources/media/3d4c085f-53f6-4091-8b8a-eec84b58f6f3-large1x1_classroom2093744_1920.jpg?1594718177858" alt="img1" class="fasil-image">
+                        <p class="fasil-p"> Classroom</p>
+                    </div>
+                </div>
+            </section><hr>
+
+            <section id="message-us">
+                <h1>Message Us</h1>
+                <div class="form-container">
+                    <form class="input" name="message-form" onsubmit= "return validationForm(event)">
+                        <table>
+                            <tr>
+                                <td><label for="nama"> Nama :</label></td>
+                                <td><input placeholder="Nama lengkap" type="text" name="full-name" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="tanggal lahir"></label> Tanggal lahir :</td>
+                                <td><input type="date" name="birth-date"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="jenis kelamin">Jenis Kelamin :</label></td>
+                                <td><input type="radio" id="male" name="gender" value="Laki-laki">Laki-laki
+                                    <input type="radio" id="female" name="gender" value="Perempuan">Perempuan
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="pesan">Pesan :</label></td>
+                                <td><textarea name="message" placeholder="tulis sesuatu" cols="50" rows="10"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td><input type="submit" value="Submit"></td>
+                            </tr>
+                    </table>
+                    </form>
+                <div id="form-Output">
+                    <p> Nama : <span id="sender-fullname"></span></p>
+                    <p> Tanggal Lahir : <span id="sender-birth-date"></span></p>
+                    <p> Jenis Kelamin: <span id="sender-gender"></span></p>
+                    <p> Pesan : <span id="sender-message"></span></p>
+                </div>
+            </div>
+            </section><hr>
+        </div>
+    </main>
+
+    <!--ini footer-->
+    <footer>
+            <p>&copy; Created by Maulana Safarwadi.</p>
+    </footer>
+
+</body>
+</html>

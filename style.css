@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*header Style*/
+.header {
+    padding: 10px;
+    border-bottom: 1px solid black;
+    background: #607D8B;
+    width: 100%;
+}
+.logo {
+    width: 50px;
+}
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1288px;
+    width: 100%;
+    margin: auto;
+}
+.nav-item {
+    margin-right: 15px;
+}
+
+.menu {
+    border: 1px solid black;
+    padding: 4px 8px;
+    border-radius: 8px;
+    color: black;
+    text-decoration: none;
+    background: #FFEE58;
+    margin: 5px;
+}
+
+.menu:hover {
+    background:  #fff;
+}
+/*Main Style*/
+.container {
+    max-width: 1288px;
+    width: 100%;
+    margin: auto; 
+}
+#hero {
+    margin-top: 15px;
+}
+#hero-word{
+    padding-left: 20px;
+}
+
+#hero img {
+    width: 100%;
+    margin-top: 50px;
+    height: auto;
+    
+}
+
+section {
+    padding: 10px;
+}
+
+#our {
+    background: #26C6DA;
+}
+.fasilitation{
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+}
+
+#our .fasilitation img {
+    width: 150px;
+}
+.fasilitation .fasil-image{
+    border-radius: 50%;
+}
+.fasilitation .fasil-p{
+    text-align: center;
+    padding-top: 15px;
+}
+
+#our > h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+
+#message-us .form-container{
+    display: flex;
+}
+#message-us .form-container .input {
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+
+#form-Output {
+    flex-basis: 50%;
+    margin: 15px;
+    border: black 1px solid;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-left: 10px;
+    background: #FFE082;
+}
+
+
+/* footer style*/
+footer {
+background-color:#607D8B;
+color: black;
+padding: 1em;
+text-align: end;
+}
+
+
+/* Style untuk layar ponsel */
+@media only screen and (max-width: 480px)
+{
+ 
+ 
+}
+
+@media only screen and (max-width: 768px)
+{
+ 
+
+}
